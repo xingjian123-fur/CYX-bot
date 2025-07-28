@@ -1,0 +1,36 @@
+ {
+    "groups": {
+        "123456789": {
+            "enabled": false,
+            "timezone": "Asia/Shanghai",
+            "start_time": {
+                "hour": 22,
+                "minute": 0
+            },
+            "end_time": {
+                "hour": 7,
+                "minute": 0
+            },
+            "mute_message": "现在是禁言时间，请勿发言！",
+            "unmute_message": "禁言时间已结束，大家可以畅所欲言！",
+            "mute_image_path": "mute.png",
+            "unmute_image_path": "unmute.png"
+        },
+        "987654321": {
+            "enabled": false,
+            "timezone": "Asia/Shanghai",
+            "start_time": {
+                "hour": 22,
+                "minute": 0
+            },
+            "end_time": {
+                "hour": 8,
+                "minute": 0
+            },
+            "mute_message": "夜间休息时间已到，群聊暂时禁言！",
+            "unmute_message": "早上好！禁言已解除，大家可以交流了！",
+            "mute_image_path": "night_mute.png",
+            "unmute_image_path": "morning_unmute.png"
+        }
+    }
+}    
