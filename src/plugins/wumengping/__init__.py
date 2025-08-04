@@ -279,7 +279,7 @@ def generate_status_chart() -> Tuple[Optional[Path], Dict[str, float]]:
 # 命令处理器
 # 1. 查看监控图表（带正常百分比）
 chart_cmd = on_command(
-    "监控图表",
+    "network",
     priority=5,
     block=True
 )
