@@ -7,7 +7,7 @@ from nonebot.plugin import PluginMetadata
 from .config import Config
 
 __plugin_meta__ = PluginMetadata(
-    name="help",
+    name="helpwancheng",
     description="",
     usage="",
     config=Config,
@@ -28,7 +28,7 @@ from nonebot.log import logger
 from nonebot.exception import FinishedException
 
 # 帮助命令
-help_cmd = on_command("帮助", aliases={"help"}, priority=5, block=True)
+help_cmd = on_command("完成表帮助", aliases={"helpwancheng"}, priority=5, block=True)
 
 @help_cmd.handle()
 async def handle_help(bot: Bot, event: MessageEvent):

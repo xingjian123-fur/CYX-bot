@@ -72,7 +72,7 @@ async def handle_ballgag(bot: Bot, event: GroupMessageEvent):
 
         # 禁言成功后，发送消息并终止处理（只调用一次finish）
         await ballgag_matcher.finish(
-            f"{event.sender.card or event.sender.nickname}触发口球惩罚！禁言{human_readable_time}（）管理无法被口球"
+            f"{event.sender.card or event.sender.nickname}触发口球惩罚！禁言{human_readable_time}注：管理无法被口球"
         )
 
     except ActionFailed as e:
